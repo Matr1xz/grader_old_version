@@ -8,7 +8,10 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     LOG_FILE=/app/judge.log \
     LOG_SIZE=20M \
     LOG_ROTATE=3 \
-    LOGROTATE_INTERVAL=60
+    LOGROTATE_INTERVAL=60 \
+    GITHUB_REPO= \
+    GITHUB_TOKEN= \
+    GITHUB_SYNC_FOLDER=/app/.local/pregrade
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends logrotate procps \
