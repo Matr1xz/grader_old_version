@@ -1,0 +1,5 @@
+app/__pycache__/
+app/**/*.pyc
+app/tmp/
+app/judge.log*
+.git/

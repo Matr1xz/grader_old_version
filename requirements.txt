@@ -1,0 +1,8 @@
+fastapi
+flask
+flask-table
+pandas
+parse
+python-multipart
+requests
+uvicorn
